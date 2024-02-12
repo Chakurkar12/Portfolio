@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c1c5f4f571.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Logof.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Projects">My Projects</a></li>
+                    <li><a href="#Achievements">My Achievements</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <h2>print("Namaste")</h2>
+                <h1>This is <span>Atharv Chakurkar</span></h1>
+                
+            </div>
+        </div>
+    </div>
+ 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/emoji3.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub- title" style="font-size: 40px;">About Me</h1>
+                    <p style="font-size: 22px;">
+                        This is Atharv Chakurkar , currently pursuing B.Tech in <br>"Artificial Intelligence and Data Science."<br>
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')" style="font-size: 22px;">Skills</p>
+                        <p class="tab-links"  onclick="opentab('Experience')" style="font-size: 22px;">Experience</p>
+                        <p class="tab-links"  onclick="opentab('Education')" style="font-size: 22px;">Education</p>
+                        <p class="tab-links"  onclick="opentab('Hobbies')" style="font-size: 22px;">Hobbies</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>C++/Python</span><br></li>
+                            <li><span>Front-End Developer</span><br></li>
+                            <li><span>Pandas</span><br></li>
+                            <li><span>Opencv</span><br></li>
+                            <li><span>Deep-Learning</span><br></li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Software-Developer intern</span><br>At Languify
+                                <br>
+                                • Developed Fashion MNIST Classification Model.<br>
+                                • Fashion MNIST classification model is to develop and test machine learning or deep learning models for image classi-
+                                fication tasks.<br>
+                                • It provides a standardized, accessible, and well-defined image classification problem that helps researchers to under-
+                                stand image classification algorithms.<br>
+                                • Worked with Quality Assurance team and developed the habit of self-learning and self assessment.
+                                </li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>College</span><br><p>
+                                Vishwakarma Institute of Technology, Pune | 2021-2025
+                                <br>
+                                B.Tech Artificial Intelligence and Data Science
+                                <br>
+                                SGPA : 9.26 - CGPA : 8.86
+                            </p></li>
+                            <li><span>Class-12</span><br><p>
+                                Sanjay Ghodawat Institute , Kolhapur | 2019-2020
+                                <br>
+                                Percentage : 97
+                            </p></li>
+                            <li><span>Class-10</span><br><p>
+                                Raja Narayanlal Lahoti English School , Latur | 2018
+                                <br>
+                                Percentage : 97.40
+                            </p></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Hobbies">
+                        <ul>
+                            <li><span>Read Books</span><br></li>
+                            <li><span>Singing</span><br></li>
+                            <li><span>Play Cricket</span><br></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="Projects-list">
+                <div>
+                    <i class="fa-brands fa-youtube"></i>
+                    <h2>Youtube-Comment-Classifier</h2>
+                    <p>
+                        <br>• Used Machine Learning and Deep Learning algorithms to analyse the youtube comments and categorise them accordingly.<br>
+                        <br>• Flask , Sentiment Analysis , Naive Bayes classification.<br>
+                        </p><br>
+                        <a href="#" style="margin-top: 13px;">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-hand"></i>
+                    <h2>Hand gesture volume control</h2>
+                    <p><br>
+                        • Developed Hand detection model that tracks the motion of hands and regulates the volume accordingly.<br> 
+                        <br>• OpenCV , Numpy , pycaw.</p><br>
+                        <a href="#" style="margin-top: 32px;">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-road"></i>
+                    <h2>“Anweshak” - The Pothole Detector.</h2>
+                    <p><br>
+                        • Real-time detecion of potholes on the roadways. • Makes Road journey more safe.<br>
+                        <br>• Django , Flask</p><br>
+                        <a href="#" style="margin-top: 54px;">Learn More</a>
+                </div>
+            </div>
+            
+        </div> 
+    </div>
+
+
+
+ <div id="Achievements">
+    <div class="container">
+        <h1 class="sub-title">My Achievements</h1>
+        <div class="Achievements-list">
+            <div>
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Paper Presentation</h2>
+               <p><br>Presented paper on: <br>
+                <br>“IOT Based Solar Car Controlling over WiFi”<br>
+                at 3rd International Conference on
+                “MANAGEMENT , ENGINEERING AND SOCIAL SCIENCE”
+                , DELHI.</p><br>
+                    
+                   
+            </div>
+            <div>
+                <i class="fa-solid fa-medal fa-flip"></i>
+                <h2>Gold Medal</h2>
+                <p><br>
+                    Received “Gold Medal” for :<br>
+                    <br>Contribution in “Social Welfare and Development Committee” 
+                    as a “Social Activity” coordinator.
+                </p><br>
+                    
+            </div>
+            <div>
+                <i class="fa-solid fa-trophy fa-beat"></i>
+                <h2>4000/- Cash Prize</h2>
+                <p><br>
+                    Special Mention :<br>
+                    <br>Conferred with “Special Mention” in the 2023 VIT PUNE, MUN (Model United Nations),
+                    and won the cash prize of Rs:4000/-.
+                </p>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+
+
+ <div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="Contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> atharvchakurkar@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i> +91-9370554548</p>
+                <div class="Social-icons">
+                    <a href="https://www.linkedin.com/in/atharv-chakurkar-38579b231/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                    <a href="https://github.com/Chakurkar12" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Images/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            
+            <div class="Contact-right">
+                <form name = "submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="E-Mail" placeholder="E-Mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright</p>
+    </div>
+ </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxXRC7YOwJLzc5BdziJHqBaume2vGC4m-_1r5JRfPHlxz1VekHYwHbqkXfSJoe8fjyclA/exec'
+    const form = document.forms['submit-to-google-sheet']
+   const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message Sent Successfully!!"})
+        setTimeout(function(){
+            msg.innerHTML = ""
+        } , 5000)
+        form.reset()
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
